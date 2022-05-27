@@ -23,16 +23,7 @@ void merge(int arr1[], int arr2[], int n, int m) {
     }
     arr2[k - 1] = first;
   }*/
-  int a=m-1;
-        int b=n-1;
-        int i=m+n-1;    
-        
-        while(a>=0 && b>=0){
-            if(arr1[a]>arr2[b])   arr1[i--]=arr1[a--];
-            else            arr1[i--]=arr2[b--];
-        }
-        
-        while(b>=0)         arr1[i--]=arr2[b--] ;  
+    
 }
 /*void merge(int arr1[], int arr2[], int n, int m) {
     int arr3[n+m];
